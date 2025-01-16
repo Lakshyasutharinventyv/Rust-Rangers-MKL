@@ -1,7 +1,7 @@
-#[allow(dead_code)]
 use std::time::Duration;
 use tokio::time::sleep;
 
+#[allow(dead_code)]
 #[tokio::main]
 pub async fn level2() {
     println!("Loading..");
