@@ -1,3 +1,4 @@
+mod levels;
 fn main() {
-    println!("Hello, world!");
+    levels::_1_level_one::level1();
 }
