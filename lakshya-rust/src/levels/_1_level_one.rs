@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 use std::{io::stdin, time::Duration};
 use tokio::time::sleep;
 

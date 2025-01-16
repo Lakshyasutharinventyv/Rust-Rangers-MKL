@@ -1,4 +1,4 @@
 mod levels;
 fn main() {
-    levels::_1_level_one::level1();
+    levels::_2_level_two::level2();
 }
