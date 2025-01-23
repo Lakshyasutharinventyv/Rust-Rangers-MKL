@@ -8,7 +8,7 @@ enum Crops{
     Corn,
     Rice,
 }
-#[derive(Debug)]
+
 struct Field{
     area:f32,
     no_of_workers:u16,
@@ -16,12 +16,11 @@ struct Field{
 }
 impl Field {
     fn plant_crop()->Crops{
-        let n: i8 = thread_rng().gen_range(0..3);
+        let n: u8 = thread_rng().gen_range(0..3);
         match n {
             0 => Crops::Wheat,
             1 => Crops::Corn,
-            2 => Crops::Rice,
-            _ => unreachable!(),
+            _ => Crops::Rice
         }
     }
 }
